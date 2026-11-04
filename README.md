@@ -2,8 +2,9 @@
 
 I build and measure the parts of an electronic trading system that sit on the critical path:
 market data in, matching, pre-trade risk, order entry out, and the queues between them. Each
-is written from public specifications, checked against a simple reference implementation, and
-measured open loop on a dedicated, isolated machine where the latency path calls for it.
+is written from public specifications, checked against a simple reference implementation or
+the specification's own test cases, and measured on a dedicated, isolated machine, open loop
+wherever latency is the question.
 
 ## The repositories
 
